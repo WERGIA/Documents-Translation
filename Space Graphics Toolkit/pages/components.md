@@ -2,3 +2,7 @@
 
 ### [대기(Atmosphere)](./components/atmosphere.md)
 ### [오로라(Aurora)](./components/aurora.md)
+### [우주배경(Backdrop)](./components/backdrop.md)
+### [벨트(Belt)](./components/belt.md)
+### [빌보드(Billboard)](./components/billboard.md)
+### [클라우드스피어(Cloudsphere)](./components/cloudsphere.md)
