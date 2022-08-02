@@ -87,3 +87,56 @@ HideDistance 내에서 각 축의 그리드에 있는 셀 수를 설정할 수 �
 #### Prefabs : List\<SgtDebris>
 
 새로운 데브리를 생성할 때 이 프리팹 중에 랜덤으로 하나를 선택합니다.
+
+## SgtDebrisSpawner
+
+이 컴포넌트를 하용하면 시간이 지남에 따라 카메라 주변에 무작위로 데브리를 생성할 수 있습니다.
+
+#### Target : Transform
+
+이 트랜스폼이 반경 안에 있으면 데브리가 스폰되기 시작합니다.
+
+#### SpawnInside : SgtShapeGroup
+
+형태 내부에 데브리가 스폰됩니다.
+
+#### ShowSpeed : float
+
+데브리가 생성된 이후에 얼마나 빠르게 보이는지 입니다.
+
+#### ShowDistance : float
+
+데브리가 생성되기 시작하는 대상으로부터의 거리입니다.
+
+#### HideDistance : float
+
+데브리가 숨겨지는 대상으로부터의 거리입니다.
+
+#### SpawnOnAwake : bool
+
+시작시에 모든 데브리가 자동으로 생성되어야 하는지 입니다.
+
+#### SpawnLimit : int
+
+생성될 수 있는 데브리의 최대 양입니다.
+
+#### SpawnRateMin : float
+
+데브리 스폰 사이의 최소 시간(초)입니다.
+
+#### SpawnRateMax : float
+
+데브리 스폰 사이의 최대 시간(초)입니다.
+
+#### SpawnScaleMin : float
+
+데브리에 곱해지는 최소 크기입니다.
+
+#### SpawnScaleMax : float
+
+데브리에 곱해지는 최대 크기입니다.
+
+#### Prefabs : List\<SgtDebris>
+
+새로운 데브리를 생성할 때 이 프리팹 중에 랜덤으로 하나를 선택합니다.
+
