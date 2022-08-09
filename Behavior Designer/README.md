@@ -2,7 +2,7 @@
 
 ## 에셋스토어 링크
 
-[Behavior Designer](https://prf.hn/l/VXDbDLy)
+[Behavior Designer](https://prf.hn/l/pmX8Nxe)
 
 ## 참고자료 및 원본 문서
 
