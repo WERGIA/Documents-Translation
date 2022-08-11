@@ -8,3 +8,4 @@
 ### [클라우드스피어(Cloudsphere)](./components/cloudsphere.md)
 ### [데브리(Debris)](./components/debris.md)
 ### [플레어(Flare)](./components/flare.md)
+### [거대 가스 행성(Jovian)](./components/jovian.md)
