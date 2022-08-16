@@ -10,3 +10,5 @@
 ### [플레어(Flare)](./components/flare.md)
 ### [거대 가스 행성(Jovian)](./components/jovian.md)
 ### [광원과 그림자(Lighting & Shadow)](./components/lighting_and_shadow.md)
+### [번개(Lightning)](./components/lightning.md)
+### [행성(Planet)](./components/planet.md)
