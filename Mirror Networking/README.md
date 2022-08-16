@@ -19,3 +19,4 @@
 ## 페이지
 
 ### [미러 네트워킹](./pages/mirror-networking.md)
+### [미러의 간략한 역사](./pages/a-brief-history-of-mirror.md)
