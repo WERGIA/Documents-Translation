@@ -12,3 +12,4 @@
 ### [광원과 그림자(Lighting & Shadow)](./components/lighting_and_shadow.md)
 ### [번개(Lightning)](./components/lightning.md)
 ### [행성(Planet)](./components/planet.md)
+### [돌출부(Prominence)](./components/prominence.md)
