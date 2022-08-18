@@ -13,3 +13,4 @@
 ### [번개(Lightning)](./components/lightning.md)
 ### [행성(Planet)](./components/planet.md)
 ### [돌출부(Prominence)](./components/prominence.md)
+### [고리(Ring)](./components/ring.md)
