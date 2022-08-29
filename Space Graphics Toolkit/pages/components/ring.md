@@ -42,3 +42,61 @@
 
 이것은 투명한 가스 행성 주변에 있는 고리에 개선된 깊이 정렬을 사용할 때 쓸 수 있습니다. 이 값은 **RadiusOuter** 값과 비슷해야 하며 행성의 크기에 따라 더 커질 수도 있습니다.
 
+## SgtRingLightingTex
+
+이 컴포넌트를 사용하면 **SgtRing.LightingTex** 필드를 생성할 수 있습니다.
+
+#### FrontPower : float
+
+들어오는 빛 산란의 전방이 얼마나 날카로운 지를 결정합니다.
+
+#### BackPower : float
+
+들어오는 빛 산란의 후방이 얼마나 날카로운 지를 결정합니다.
+
+#### BackStrength : float
+
+후방 산란된 빛의 세기입니다.
+
+#### BaseStrength : float
+
+수직 산란된 빛의 세기입니다.
+
+#### ExportTexture : void
+
+이 메서드를 통해 생성된 텍스처를 에셋 형태로 익스포트할 수 있습니다.
+
+익스포트를 완료한 다음에는, 이 컴포넌트를 제거하고, 추출한 텍스처를 **SgtRing** 컴포넌트의 **LightingTex**에 사용할 수 있습니다.
+
+## SgtRingMainTexFilter
+
+이 컴포넌트를 사용하면 고리의 단순 RGB 텍스처를 기반으로한 **SgtRing.MainTex** 필드를 생성할 수 있습니다.
+
+#### Source : Texture2D
+
+필터링될 소스 링 텍스처입니다.
+
+#### Format : TextureFormat
+
+생성된 텍스처의 포맷입니다.
+
+#### Power : float
+
+빛/어둠 전환의 날카로움입니다.
+
+#### Exposure : float
+
+밝기를 제어할 수 있습니다.
+
+#### ExportTexture : void
+
+이 메서드를 통해 생성된 텍스처를 에셋 형태로 익스포트할 수 있습니다.
+
+익스포트를 완료한 다음에는, 이 컴포넌트를 제거하고, 추출한 텍스처를 **SgtRing** 컴포넌트의 **MainTex**에 사용할 수 있습니다.
+
+## SgtRingModel
+
+이 컴포넌트는 **SgtRing** 컴포넌트를 렌더하는 데 사용됩니다.
+
+> **NOTE** - 이 컴포넌트는 자동으로 생성되고 관리됩니다.
+
