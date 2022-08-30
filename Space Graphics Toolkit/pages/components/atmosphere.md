@@ -130,13 +130,13 @@ OuterMesh의 반지름을 설정합니다. 이 값을 잘못 설정하면 대기
 
 외부 텍스처 전환의 강도입니다.
 
-#### ExportInnerTexture : void
+#### void ExportInnerTexture()
 
 이 메서드로 에셋 텍스처를 만들어서 익스포트할 수 있습니다.
 
 완료되면 이 컴포넌트를 제거하고 익스포트한 에셋을 사용하여 **SgtAtmosphere** 컴포넌트의 **InnerDepth** 설정으로 지정할 수 있습니다.
 
-#### ExportOuterTexture : void
+#### void ExportOuterTexture()
 
 이 메서드로 에셋 텍스처를 만들어서 익스포트할 수 있습니다.
 
@@ -190,7 +190,7 @@ Sunset Green 채널 전환의 날카로움입니다.
 
 Sunset Blue 채널 전환의 날카로움입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 통해 텍스처를 에셋으로 만들고 익스포트할 수 있습니다.
 
@@ -230,7 +230,7 @@ sunset green 채널 전환의 날카로움입니다.
 
 sunset blue 채널 전환의 날카로움입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 통해 에셋으로 생성된 텍스처를 익스포트할 수 있습니다.
 

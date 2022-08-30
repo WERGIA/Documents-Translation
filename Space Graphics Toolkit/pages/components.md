@@ -1,5 +1,6 @@
 # 컴포넌트
 
+### [기본(Basic)](./components/basic.md)
 ### [대기(Atmosphere)](./components/atmosphere.md)
 ### [오로라(Aurora)](./components/aurora.md)
 ### [우주배경(Backdrop)](./components/backdrop.md)
@@ -14,3 +15,4 @@
 ### [행성(Planet)](./components/planet.md)
 ### [돌출부(Prominence)](./components/prominence.md)
 ### [고리(Ring)](./components/ring.md)
+

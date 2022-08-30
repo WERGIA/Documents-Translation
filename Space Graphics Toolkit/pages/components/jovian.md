@@ -78,7 +78,7 @@
 
 대기 상단에서의 밀도 페이딩 강도입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 통해 생성된 텍스처를 에셋 형태로 익스포트할 수 있습니다.
 
@@ -112,7 +112,7 @@
 
 일몰 blue 채널 전환의 날카로움입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 통해 생성된 텍스처를 에셋 형태로 익스포트할 수 있습니다.
 
@@ -152,8 +152,9 @@
 
 일몰 blue 채널 전환의 날카로움입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 통해 생성된 텍스처를 에셋 형태로 익스포트할 수 있습니다.
 
 익스포트를 완료한 다음에는, 이 컴포넌트를 제거하고, 추출한 텍스처를 **SgtJovian** 컴포넌트의 **ScatteringTex**에 사용할 수 있습니다.
+

@@ -62,7 +62,7 @@
 
 수직 산란된 빛의 세기입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 통해 생성된 텍스처를 에셋 형태로 익스포트할 수 있습니다.
 
@@ -88,7 +88,7 @@
 
 밝기를 제어할 수 있습니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 통해 생성된 텍스처를 에셋 형태로 익스포트할 수 있습니다.
 
@@ -99,4 +99,30 @@
 이 컴포넌트는 **SgtRing** 컴포넌트를 렌더하는 데 사용됩니다.
 
 > **NOTE** - 이 컴포넌트는 자동으로 생성되고 관리됩니다.
+
+## SgtRingNearTex
+
+이 컴포넌트를 사용하면 **SgtRing** 컴포넌트의 머티리얼을 위한 NearTex를 생성할 수 있습니다.
+
+#### Ease : SgtEase.Type
+
+전환에 사용되는 ease 유형입니다.
+
+#### Sharpness : float
+
+전환의 날카로움입니다.
+
+#### Offset : float
+
+페이딩의 시작 지점입니다.
+
+#### OverrideRange : float
+
+이 컴포넌트가 고리의 **NearRangeRecip** 설정도 제어해야 하는지를 결정합니다.
+
+#### void ExportTexture()
+
+이 메서드를 통해 생성된 텍스처를 에셋 형태로 익스포트할 수 있습니다.
+
+익스포트를 완료한 다음에는, 이 컴포넌트를 제거하고, 추출한 텍스처를 **SgtRing** 컴포넌트의 **NearTex**에 사용할 수 있습니다.
 

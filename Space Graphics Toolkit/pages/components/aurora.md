@@ -122,7 +122,6 @@ Color.rgb 값에 이 값을 곱합니다.
 
 오로라 경로 길이에 따라 변경되는 애니메이션 각도의 양입니다.
 
-
 ## SgtAuroraMainTex
 
 이 컴포넌트를 사용하면 SgtAurora.MainTex 필드를 생성할 수 있습니다.
@@ -171,7 +170,7 @@ Color.rgb 값에 이 값을 곱합니다.
 
 하단과 중간 사이의 전환 강도입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 통해 에셋으로 생성된 텍스처를 익스포트할 수 있습니다.
 
@@ -205,7 +204,7 @@ Color.rgb 값에 이 값을 곱합니다.
 
 -1 = 덮어씌우지 않음
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 통해 에셋으로 생성된 텍스처를 익스포트할 수 있습니다.
 

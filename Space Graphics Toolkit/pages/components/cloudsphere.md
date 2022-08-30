@@ -66,7 +66,7 @@
 
 상단 대기에서 밀도가 페이딩되는 강도입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 사용하여 텍스처를 에셋으로 익스포트할 수 있습니다.
 
@@ -100,7 +100,7 @@
 
 일몰 blue 채널 전환의 날카로움입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 사용하여 텍스처를 에셋으로 익스포트할 수 있습니다.
 
@@ -134,8 +134,9 @@
 
 -1 = 오버라이드 하지 않음
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 사용하여 텍스처를 에셋으로 익스포트할 수 있습니다.
 
 익스포트를 완료한 다음에는, 이 컴포넌트를 제거하고 **SgtCloudsphere** 컴포넌트의 **NearTex** 설정에 생성한 에셋을 넣어 사용할 수 있습니다.
+

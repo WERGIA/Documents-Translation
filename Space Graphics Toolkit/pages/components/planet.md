@@ -72,7 +72,7 @@
 
 깊이의 척도입니다.
 
-#### ExportTexture : void
+#### void ExportTexture()
 
 이 메서드를 사용하면 생성된 텍스처를 에셋으로 추출할 수 있습니다.
 
