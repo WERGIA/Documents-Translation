@@ -1,5 +1,16 @@
 # 버전
 
+## 4.0.9
+
+- **SgtAtmosphere** 컴포넌트의 **SourceMaterial**이 하늘과 동기화되지 않는 문제를 수정했습니다.
+- **SgtTerrainCollider**의 자식 레이어를 수정했습니다.
+- 이제 **Planet** 셰이더의 **WATER** 설정이 **NIGHT** 설정을 재정의하도록 수정했습니다.
+- **SgtAtmosphere.OcclusionPower** 설정을 추가했습니다.
+- **SgtJovian.OcclusionPower** 설정을 추가했습니다.
+- **Solid** 셰이더에 **FACTETED** 설정을 추가했습니다.
+- **Planet** 셰이더에 **FACTETED** 설정을 추가했습니다.
+- **TerrainPlanet** 셰이더에 **FACTETED** 설정을 추가했습니다.
+
 ## 4.0.8
 
 - 고리의 어두운 부분이 투명해지는 경우가 발생하던 문제를 수정했습니다.

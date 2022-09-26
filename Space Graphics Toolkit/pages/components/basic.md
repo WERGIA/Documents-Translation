@@ -136,3 +136,57 @@ Rigidbody.velocitydp 움직임을 적용하려면 여기에서 설정하십시�
 
 이 설정을 활성화하고 프로젝트가 HDRP로 실행되고 씬에 대기 산란이 있는 **SgtAtmosphere** 컴포넌트가 포함된 경우 해당 **ScatteringHdr** 설정이 활성화됩니다.
 
+## SgtDragPitchYaw
+
+이 컴포넌트는 현재 게임 오브젝트(예: 카메라)에 마우스나 터치 컨트롤을 이용한 기본 피치/요(Pitch/Yaw) 컨트롤을 추가합니다.
+
+#### Key : KeyCode
+
+데스크탑 플랫폼에서 이 컴포넌트가 활성화되기 위한 키를 설정합니다.
+
+None = 모든 마우스 버튼
+
+#### GuiLayers : LayerMask
+
+설정된 UI 레이어 위에서 화면을 터치하기 시작한 손가락 터치는 무시됩니다.
+
+#### Pitch : float
+
+360도 각에서의 타깃 피치 각도입니다.
+
+#### PitchSensitivity : float
+
+마우스/터치 드래그 거리에 따른 피치 변화 속도입니다.
+
+#### PitchMin : float
+
+피치 값의 최소 값입니다.
+
+#### PitchMax : float
+
+피치 값의 최대 값입니다.
+
+#### Yaw : float
+
+360도 각에서의 타깃 요 각도입니다.
+
+#### YawSensitivity : float
+
+마우스/터치 드래그 거리에 따른 요 변화 속도입니다.
+
+#### YawClamp : bool
+
+요 값을 일정 범위 내로 고정할지를 결정합니다.
+
+#### YawMin : float
+
+요 값의 최소 값입니다.
+
+#### YawMax : float
+
+요 값의 최대 값입니다.
+
+#### Damping : float
+
+현재 값에서부터 타깃 값까지 얼마나 빠르게 회전 전환을 할지를 결정합니다(-1 = 즉시).
+
